@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcelo Willian Ouriversaria</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+
+<body>
+    <header>
+        <section class="container principal">
+            <div class="container__caixa">
+                <img src="assets/Marcelo Willian ourives.jpg" alt="Baner Marcelo Willian ouriversaria" class="container__imagem">
+                <h1 class="container__titulo">Jóias que eternizam <br> momentos.</h1>           
+            </div>
+        </section>  
+    </header> 
+    
+        <!--1ª section carrossel-->
+    <section class="carrossel">
+
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="assets/Anéis de casamento.png"alt="Anéis de casamento"></div>
+                <div class="swiper-slide"><img src="assets/Anéis.png" alt="Anéis"></div>
+                <div class="swiper-slide"><img src="assets/Brincos.png" alt="Brincos"></div>
+                <div class="swiper-slide"><img src="assets/Colar feminino.png" alt="Colar feminino"></div>
+                <div class="swiper-slide"><img src="assets/Gargantilha masculina.png" alt="Gargantilha masculina"></div>
+                <div class="swiper-slide"><img src="assets/Piercing.png" alt="Piercing"></div> 
+            </div>       
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+
+    </body>
+</html>
