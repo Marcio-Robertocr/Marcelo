@@ -23,14 +23,15 @@ body{
 
 .container__caixa{
     max-width: 1200px;
-    margin: 0 4.5em;
+    gap: 6em;
+    margin: 0 5em;
     padding:3em;
     display: flex;
-    border-bottom: 1px solid var(--Dourado);
+    border-bottom: 0.1px solid var(--Dourado);
 }
 
 .container__imagem{
-    width: 30%;
+    width: 20%;
     height: auto;
     margin: 0 4em;
 }
@@ -40,6 +41,6 @@ body{
     color: var(--Dourado);
     text-align: center;
     font-style: italic;
-    font-size: 4em;
-    align-self: center;
+    font-size: 3em;
+    align-items: center;
 }
