@@ -1,4 +1,5 @@
 @import url("carrossel.css");
+@import url("reset.css");
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
 :root{
@@ -22,7 +23,6 @@ body{
 }
 
 .container__caixa{
-    max-width: 1200px;
     gap: 6em;
     margin: 0 5em;
     padding:3em;
@@ -34,6 +34,7 @@ body{
     width: 20%;
     height: auto;
     margin: 0 4em;
+    border-radius: 0.5em;
 }
 
 .container__titulo{

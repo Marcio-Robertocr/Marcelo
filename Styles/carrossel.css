@@ -1,18 +1,16 @@
 .carrossel {
-    width: 100%;
-    margin: 2em auto 3em auto;
-    text-align: center;
+    width:auto;
 }
 
 .swiper-slide img{
+    border-radius: 0.3em;
     width: 100%;
     justify-content: space-between;
     margin: 5em 5em;
-   }
+    }
 
  .swiper-wrapper{
     display: flex;
-    margin: 0 4em;
     gap: 1em;
    }  
 
