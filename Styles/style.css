@@ -9,9 +9,11 @@
     --fonte-principal: "Cookie", cursive
 }
 
-*{
-    margin: 0;
+* {
+    box-sizing: border-box;
+    margin: 2em 2em;
     padding: 0;
+    
 }
 
 body{
