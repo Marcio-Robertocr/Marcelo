@@ -22,26 +22,26 @@ body{
     font-weight: 400;
 }
 
-.container__caixa{
-    gap: 6em;
-    margin: 0 5em;
-    padding:3em;
+.cabecalho{
+    gap: 25em;
+    margin: 1em 5em;
     display: flex;
+    align-items: center;
     border-bottom: 0.1px solid var(--Dourado);
 }
 
-.container__imagem{
-    width: 20%;
-    height: auto;
-    margin: 0 4em;
+.cabecalho__imagem{
+    width: 15%;
+    height: 40%;
+    margin-left: 4em;
     border-radius: 0.5em;
 }
 
-.container__titulo{
+.cabecalho__titulo{
+    text-align: center;
     font-family: var(--fonte-principal);
     color: var(--Dourado);
-    text-align: center;
     font-style: italic;
     font-size: 3em;
-    align-items: center;
+    margin: 1em;
 }
