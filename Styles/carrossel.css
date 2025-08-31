@@ -1,32 +1,19 @@
 .carrossel{
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
 }
 
 .carrossel__container{
     width: 100%; 
-    }  
-
-.swiper-wrapper{
-    display: flex;
     justify-content: center;
     align-items: center;
-   
-}
+    }  
 
 .swiper-slide img{
-    justify-content: center;
     border-radius: 0.3em;
-    width: 100%;
     height: 50vh;
-    margin: 6em;
+    margin: 6em auto;
     }
 
 
