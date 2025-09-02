@@ -45,3 +45,30 @@ body{
     font-size: 3em;
     margin: 1em;
 }
+
+@media screen and (max-width: 1024px){
+    .cabecalho{
+        display: block;
+        margin: 1em;
+    }
+
+    .cabecalho__imagem{
+        width: 50%;
+        margin-bottom: 1em;    
+    }
+
+    .cabecalho__titulo{
+        display: none;        
+    }
+}
+
+@media screen and (max-width: 1728px) {
+    .cabecalho{
+        gap: 10em;
+    }
+
+    .cabecalho__titulo{
+        font-size: 2.5em;
+    }
+
+}
