@@ -12,7 +12,7 @@
 
 .swiper-slide img{
     border-radius: 0.3em;
-    height: 50vh;
+    /*height: 50vh;*/
     margin: 6em auto;
     }
 
@@ -24,7 +24,7 @@
     }
 
     .swiper{
-        width: 60%;
+        width: 70%;
     }
 
     .swiper-button-prev, .swiper-button-next{
@@ -50,7 +50,7 @@
     }
 
     .swiper{
-        width: 50%;
+        width: 70%;
     }
 
     .descricao__titulo{
