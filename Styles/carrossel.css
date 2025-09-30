@@ -21,18 +21,17 @@
     }
 
 
-@media screen and (min-width: 1024px){
+@media screen and (max-width: 1024px) {
 
+
+@media screen and (max-width: 1728px) {
     .swiper{
-        width: 70%;
-    }
+        width: 90%;
+    }   
 
-}
-
-@media screen and (min-width: 1728px) {
- 
-    .swiper{
-        width: 70%;
+    .swiper-slide img{
+        height: 20vh;
+        margin: 1.5em auto;
     }
 
 }
