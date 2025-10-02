@@ -140,6 +140,13 @@ body{
 @media screen and (max-width: 1728px) {
     .cabecalho{
         gap: 10em;
+        margin-bottom: 2em; 
+    }
+
+    .cabecalho__imagem{
+        width: 65%;
+        align-items: center;
+        margin-bottom: 2em;
     }
 
     .cabecalho__titulo{
@@ -156,7 +163,7 @@ body{
     .apresentacao__titulo{
         font-size: 1.8em;
         padding: 2vh;
-        margin: 0.5em;
+        margin: 2em 0.5em;
     }
 
     .apresentacao__video{
