@@ -163,7 +163,7 @@ body{
     .apresentacao__titulo{
         font-size: 1.8em;
         padding: 2vh;
-        margin: 2em 0.5em;
+        margin: 1.5em 0.5em;
     }
 
     .apresentacao__video{
@@ -176,6 +176,22 @@ body{
         padding: 0.5em;
         border-radius: 15px;
         margin: 1em auto;
+    }
+
+
+    .rodape{
+       margin: 1em; 
+       display: flex;
+       justify-content: space-between;
+    }
+
+    .rodape__texto{
+        font-family: var(--fonte-secundaria);
+        font-size: 0.50em;
+    }
+
+    .rodape__imagem{
+        width: 10%;
     }
 
 }
