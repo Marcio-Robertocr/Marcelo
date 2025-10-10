@@ -178,6 +178,12 @@ body{
         margin: 1em auto;
     }
 
+    .orcamento:hover{
+        background-color: var(--Dourado);
+        color: var(--cor-de-fundo);
+        transition: 0.3s;
+    }
+
     .rodape{
        margin: 1em; 
        display: flex;
